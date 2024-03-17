@@ -1,13 +1,11 @@
-# js-lab-132
-### Lab132 Array: เรียงข้อมูลใน array3
-จงเรียงข้อมูล object ใน arr โดยเรียงตามค่า age จากน้อยไปหามาก
+# js-lab-133
+### Lab133 Array: ฟังก์ชัน copySorted(arr)
+จงเขียนฟังก์ชัน copySorted(arr) เพื่อ return array ที่เรียงข้อมูลใน arr จากน้อยไปหามาก โดยที่ arr ต้องมีค่าเหมือนเดิม
 
 ```JavaScript
-const arr = [
-  { name: 'John', age: 25 },
-  { name: 'Leon', age: 26 },
-  { name: 'Mick', age: 29 },
-  { name: 'Pete', age: 30 },
-  { name: 'Mary', age: 28 }
-];
+let arr = ['React', 'Vue', 'Angular'];
+let sorted = copySorted(arr);
+
+console.log(sorted); // Angular, React, Vue
+console.log(arr); // React, Vue, Angular (no changes)
 ```
